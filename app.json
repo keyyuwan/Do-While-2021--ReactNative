@@ -3,6 +3,7 @@
     "name": "heat_reactnative",
     "slug": "heat_reactnative",
     "version": "1.0.0",
+    "schema": "heat_reactnative",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
