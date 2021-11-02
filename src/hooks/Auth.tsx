@@ -85,7 +85,11 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
   }
 
-  async function signOut() {}
+  async function signOut() {
+    setUser(null);
+    await localStorage.removeItem(USER_STORAGE);
+    await localStorage.removeItem(TOKEN_STORAGE);
+  }
 
   // quando o user der reload na aplicação
   useEffect(() => {

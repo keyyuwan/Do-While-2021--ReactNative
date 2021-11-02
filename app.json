@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "heat_reactnative",
-    "slug": "heat_reactnative",
+    "name": "heatreactnative",
+    "slug": "heatreactnative",
     "version": "1.0.0",
-    "schema": "heat_reactnative",
+    "scheme": "heatreactnative",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {

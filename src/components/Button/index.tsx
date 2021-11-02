@@ -38,9 +38,7 @@ export function Button({
       ) : (
         <>
           <AntDesign name={icon} size={24} style={styles.icon} />
-          <Text style={[styles.title, { color, backgroundColor }]}>
-            {title}
-          </Text>
+          <Text style={[styles.title, { color }]}>{title}</Text>
         </>
       )}
     </TouchableOpacity>
